@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bclb.upload.album.albumlcc.view.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0.5dp"
+    android:descendantFocusability="blocksDescendants">
+    <ImageView
+        android:id="@+id/ic_image_pick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+
+    <ImageView
+        android:id="@+id/shader_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/video_time_shape"
+     />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10dp">
+
+        <ImageView
+            android:gravity="center"
+            android:id="@+id/ic_check_box"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/selector_checkbox_photo" />
+
+        <TextView
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/text"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/video_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="10:98" />
+
+
+</bclb.upload.album.albumlcc.view.SquareRelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+
+    <string name="howmany_pic">张照片</string>
+    <string name="howmany_video">个视频</string>
+    <string name="photo_take">拍摄照片</string>
+    <string name="photo_video">拍视频</string>
+    <string name="photo_pick_deal">图片处理中...</string>
+    <string name="photo_pick_close">关闭</string>
+    <string name="photo_pick_near">最近照片</string>
+    <string name="photo_pick_album">选择相册</string>
+    <string name="photo_empty">您还没有照片</string>
+    <string name="video_empty">您还没有视频</string>
+
+    <string name="video_pick_near">最近视频</string>
+    <string name="carema_flash_auto">自动</string>
+    <string name="haschoice">已选择</string>
+    <string name="pohot_choice">选择</string>
+    <string name="photo_video_cancle">重拍</string>
+    <string name="record_notify">按住开始录制</string>
+    <string name="record_notify_diss">上移取消</string>
+    <string name="head_welldone">完成</string>
+    <string name="select_max">已经选满</string>
+    <string name="select_max_value">张</string>
+    <string name="back">返回</string>
+
+    <string name="regist_yes">确定</string>
+    <string name="page_carema">相机</string>
+    <string name="carema_data_error">相机数据获取失败</string>
+
+    <string name="delete">删除</string>
+    <string name="upload_dialog_sure_food">好的</string>
+    <string name="upload_dialog_sure">确定</string>
+    <string name="upload_dialog_quit">取消</string>
+    <string name="upload_dialog_title1">退出此次编辑？</string>
+    <string name="upload_dialog_deldraf">删除草稿？</string>
+    <string name="upload_dialog_title">删除图片</string>
+    <string name="upload_dialog_con">确定删除所选图片吗?</string>
+    <string name="upload_dialog_delvideo_title">删除视频</string>
+    <string name="upload_dialog_video">确定删除该视频吗?</string>
+
+</resources>

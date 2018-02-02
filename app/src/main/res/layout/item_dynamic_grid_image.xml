@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bclb.upload.album.albumlcc.view.SquareRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2.5dp"
+    android:orientation="vertical"
+    >
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_public_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+
+        <ProgressBar
+            android:id="@+id/progress_publish_dynamic"
+            android:layout_width="44dp"
+            android:layout_height="4dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_pic_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:src="@mipmap/details_live_go"/>
+</FrameLayout>
+</bclb.upload.album.albumlcc.view.SquareRelativeLayout>

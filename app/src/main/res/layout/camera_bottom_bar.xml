@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="108dp"
+              android:layout_alignParentBottom="true"
+              android:layout_gravity="bottom"
+              android:background="#aa111213"
+              android:baselineAligned="false"
+              android:clickable="true"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:weightSum="3.0">
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/camera_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@mipmap/photo_x"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/camera_sure"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@mipmap/photo_takephoto"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/camera_flash_mode_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/camera_flash_mode"
+            android:text="@string/carema_flash_auto"
+            android:textColor="#ad8748"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/camera_flash_mode"
+            android:layout_width="28dp"
+            android:layout_height="45dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

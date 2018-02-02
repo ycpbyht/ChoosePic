@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bclb.upload.album.albumlcc.view.SquareRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7A263"
+    android:layout_margin="0.5dp"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/camera_pick"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/photo_icon_takephoto"
+        />
+
+    <TextView
+        android:id="@+id/camera_text"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_pick"
+        android:layout_centerHorizontal="true"
+        android:text="@string/photo_take"
+        android:textColor="#fff"
+        android:textSize="15sp"/>
+
+</bclb.upload.album.albumlcc.view.SquareRelativeLayout>
