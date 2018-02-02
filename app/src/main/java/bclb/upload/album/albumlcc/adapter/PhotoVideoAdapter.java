@@ -437,14 +437,6 @@ public class PhotoVideoAdapter extends RecyclerView.Adapter<PhotoVideoAdapter.My
         this.notifyDataSetChanged();
     }
 
-    //    时间类型转换
-    public static String getMS(long cc_time) {
-        String re_StrTime = null;
-        SimpleDateFormat sdf = new SimpleDateFormat("mm:ss");
-        re_StrTime = sdf.format(new Date(cc_time));
-        return re_StrTime;
-    }
-
     /**
      * 比较数据进行局部刷新用，暂时先停掉了，效果不太理想
      * @param newList
